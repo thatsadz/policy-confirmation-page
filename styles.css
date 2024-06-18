@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    background-color: #0044cc;
+    padding: 10px 0;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.confirmation {
+    padding: 20px;
+    text-align: center;
+}
+
+.confirmation h2 {
+    color: #0044cc;
+}
+
+.confirmation .subtitle {
+    font-size: 18px;
+    color: #666;
+}
+
+.license-plate {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #eee;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.dates {
+    margin: 20px 0;
+}
+
+.policy-details {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.policy-details h3 {
+    color: #0044cc;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.links a {
+    color: #0044cc;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
